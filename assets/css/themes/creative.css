@@ -118,3 +118,10 @@ h6 {
     color: #000 !important;
   }
 }
+
+/* custom style'ing from Steven Petteruti */
+#sub-text {
+  font-size: 34px;
+  margin-top: -8px;
+
+}
