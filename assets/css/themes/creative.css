@@ -228,6 +228,8 @@ h6 {
   box-shadow: 0px 0px 47px -9px rgba(0,0,0,0.15);
 }
 .p1, .p2, .p3, .p4, .p5 {
+  width: 240px;
+  height: 330px;
   position: absolute;
   padding-left: 5px;
   padding-top: 3px;
@@ -268,4 +270,11 @@ h6 {
 
 .c1:hover ~ .popover .p1, .c2:hover ~ .popover .p2, .c3:hover ~ .popover .p3, .c4:hover ~ .popover .p4, .c5:hover ~ .popover .p5  {
   opacity: 1;
+}
+.logo-asset img {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  height: 20px;
+
 }
