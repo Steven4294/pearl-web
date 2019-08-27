@@ -171,8 +171,8 @@ h6 {
    width: 100%;
    padding-bottom: 100%; */
    /* position: relative; */
-   width: 650px;
-   height: 650px;
+   width: 720px;
+   height: 720px;
 }
 
 #circle {
@@ -204,12 +204,37 @@ h6 {
 }
 
 .c {
+
+  transition: .3s;
   position: absolute;
   background-color: white;
   height: 55px;
   width: 55px;
   border-radius: 50%;
   z-index: 4;
+}
+.popover {
+  opacity: 0.0;
+  width: 240px;
+  height: 330px;
+  left: 300px;
+  background: rgba(255,255,255,.8);
+  position: absolute;
+  z-index: 10;
+  border-radius: 5px;
+  transition: .3s;
+  -webkit-box-shadow: 0px 0px 47px -9px rgba(0,0,0,0.15);
+  -moz-box-shadow: 0px 0px 47px -9px rgba(0,0,0,0.15);
+  box-shadow: 0px 0px 47px -9px rgba(0,0,0,0.15);
+}
+.p1, .p2, .p3, .p4, .p5 {
+  width: 240px;
+  height: 330px;
+  position: absolute;
+  padding-left: 5px;
+  padding-top: 3px;
+  opacity: 0.0;
+  top: 0px;
 }
 
 .c1 {
@@ -222,7 +247,7 @@ h6 {
 }
 .c3 {
   left: 12%;
-  top: 365px;
+  top: 345px;
 }
 .c4 {
   left: 30%;
@@ -231,4 +256,38 @@ h6 {
 .c5 {
   left: 15%;
   top: 245px;
+}
+.c6 {
+  left: 6%;
+  top: 407px;
+}
+
+.c6 img, .c7 img{
+  padding: 12px;
+  border-radius: 0px;
+}
+.c7 {
+  left: 32%;
+  top: 295px;
+}
+
+.c:hover {
+  margin-top: -8px;
+}
+
+.c1:hover ~ .popover, .c2:hover ~ .popover, .c3:hover ~ .popover, .c4:hover ~ .popover, .c5:hover ~ .popover  {
+  opacity: 1;
+  left: 276px;
+
+}
+
+.c1:hover ~ .popover .p1, .c2:hover ~ .popover .p2, .c3:hover ~ .popover .p3, .c4:hover ~ .popover .p4, .c5:hover ~ .popover .p5  {
+  opacity: 1;
+}
+.logo-asset img {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  height: 20px;
+
 }
