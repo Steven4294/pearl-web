@@ -292,7 +292,7 @@ h6 {
 
 }
 
-input.email-subscription {
+/* input.email-subscription {
   border: #DDD solid 1px;
   padding-left: 15px;
   width: 250px;
@@ -316,4 +316,4 @@ box-shadow: 0px 0px 21px 1px rgba(0,0,0,0.25);
   border: none;
   font-weight: 500;
   background-image: linear-gradient(to right, #eb4d4b , #ff7979);
-}
+} */
