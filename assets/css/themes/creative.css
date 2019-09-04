@@ -317,3 +317,7 @@ box-shadow: 0px 0px 21px 1px rgba(0,0,0,0.25);
   font-weight: 500;
   background-image: linear-gradient(to right, #eb4d4b , #ff7979);
 } */
+
+button.ld_sf_submit.px-4 {
+  background-image: linear-gradient(to right, #AE65A2 , #D671A1);
+}
