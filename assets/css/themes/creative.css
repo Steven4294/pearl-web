@@ -37,6 +37,14 @@ p, .p {
   font-weight: 400;
 }
 
+img {
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  cursor: default;
+}
+
 .split-txt {
   font-family: 'Lora', serif;
 }
