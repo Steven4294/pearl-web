@@ -41,6 +41,17 @@ p, .p {
   font-family: 'Lora', serif;
 }
 
+footer {
+  background-color: black;
+}
+
+footer p {
+  font-family: 'Montserrat', 'sans-serif';
+  font-weight: 700;
+  color: white;
+
+}
+
 h3, .h3,
 h4, .h4,
 h5, .h5,
