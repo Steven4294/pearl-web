@@ -373,7 +373,10 @@ button.ld_sf_submit.px-4 {
 }
 
 #main-logo {
-  height: 60px;
-  margin-left: 30px;
-  margin-top: 20px;
+  height: 85px;
+  margin-left: 60px;
+  margin-top: 40px;
+}
+.logo-dark, .logo-sticky, .mobile-logo-default, .logo-default {
+  height: 50px;
 }
