@@ -82,7 +82,7 @@
 		|- 4.4. Text Block
 
 	6. PARTIALS
-		|- 6.1. Search Results 
+		|- 6.1. Search Results
 		|- 6.2. 404 Not Found
 		|- 6.3. Sidebar
 		|- 6.4. Page Frame
@@ -5554,7 +5554,7 @@ body.search .no-results .search-form input[type=submit] { background-color: var(
 
 .border-fade-black-015 { border: 1px solid rgba(0, 0, 0, 0.15); }
 
-.bt-fade-white-015 { border-top: 1px solid rgba(255, 255, 255, 0.15); }
+.bt-fade-white-015 { border-top: 0px solid rgba(255, 255, 255, 0.15); }
 
 .bb-fade-white-015 { border-bottom: 1px solid rgba(255, 255, 255, 0.15); }
 

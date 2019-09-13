@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Hind+Madurai:400,500,600|Lora:400i|Montserrat:400,500,600,700,800&display=swap');
+
+
 :root {
   --color-primary: #fe688b;
   --color-secondary: #f9b851;
@@ -6,7 +9,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 15px;
   line-height: 1.9em;
   color: #828282;
@@ -25,8 +28,45 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6 .h6 {
-  font-family: 'Poppins', 'sans-serif';
+  font-family: 'Montserrat', 'sans-serif';
   font-weight: 700;
+  color: #000;
+}
+p, .p {
+  font-family: 'Hind Madurai', sans-serif;
+  font-weight: 400;
+}
+
+img {
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  cursor: default;
+}
+
+.split-txt {
+  font-family: 'Lora', serif;
+}
+
+footer {
+  background-color: black;
+}
+
+footer p {
+  font-family: 'Montserrat', 'sans-serif';
+  font-weight: 500;
+  color: white;
+  font-size: .74rem;
+
+}
+
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-family: 'Hind Madurai', sans-serif;
+  font-weight: 600;
   color: #000;
 }
 

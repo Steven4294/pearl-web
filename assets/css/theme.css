@@ -21926,7 +21926,7 @@ body.search .no-results .search-form input[type=submit] {
 }
 
 .bt-fade-white-015 {
-  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  border-top: 0px solid rgba(255, 255, 255, 0.15);
 }
 
 .bb-fade-white-015 {
